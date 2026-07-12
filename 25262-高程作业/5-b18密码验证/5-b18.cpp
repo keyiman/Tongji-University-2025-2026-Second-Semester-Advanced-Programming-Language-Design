@@ -1,5 +1,5 @@
-/* ¸öÈËÐÅÏ¢ÒÑÉ¾³ý */
-/*2550322 Â½µÏÔµ 2554487 ºîÕñÍ¥ 2552418 Ê¯­Z»ª 2551520 µË¾²ÑÅ 2554096 Òü½ðÀÚ 2554118 ÍõÔª*/
+/* ä¸ªäººä¿¡æ¯å·²åˆ é™¤ */
+/*255xxxx æ²ˆåš 255xxxx æ²ˆåš 255xxxx æ²ˆåš 255xxxx æ²ˆåš 255xxxx æ²ˆåš 255xxxx æ²ˆåš*/
 #include <iostream>
 using namespace std;
 
@@ -13,7 +13,7 @@ int main()
 
 	if (!(cin >> expected_len >> min_upper >> min_lower >> min_num >> min_other))
 	{
-		cout << "´íÎó" << endl;
+		cout << "é”™è¯¯" << endl;
 		return 0;
 	}
 
@@ -21,7 +21,7 @@ int main()
 		min_upper < 2 || min_lower < 2 || min_num < 2 || min_other < 2 ||
 		(min_upper + min_lower + min_num + min_other) > expected_len)
 	{
-		cout << "´íÎó" << endl;
+		cout << "é”™è¯¯" << endl;
 		return 0;
 	}
 
@@ -30,7 +30,7 @@ int main()
 	{
 		if (!(cin >> passwords))
 		{
-			cout << "´íÎó" << endl;
+			cout << "é”™è¯¯" << endl;
 			return 0;
 		}
 
@@ -70,7 +70,7 @@ int main()
 				}
 				else
 				{
-					cout << "´íÎó" << endl;
+					cout << "é”™è¯¯" << endl;
 					return 0;
 				}
 			}
@@ -78,18 +78,18 @@ int main()
 
 		if (upper < min_upper || lower < min_lower || num < min_num || other < min_other)
 		{
-			cout << "´íÎó" << endl;
+			cout << "é”™è¯¯" << endl;
 			return 0;
 		}
 
 		if (upper + lower + num + other != expected_len)
 		{
-			cout << "´íÎó" << endl;
+			cout << "é”™è¯¯" << endl;
 			return 0;
 		}
 	}
 
-	cout << "ÕýÈ·" << endl;
+	cout << "æ­£ç¡®" << endl;
 
 	return 0;
 }
