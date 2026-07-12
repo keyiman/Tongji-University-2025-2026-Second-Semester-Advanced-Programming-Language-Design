@@ -1,4 +1,4 @@
-<img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/3a3e7196-860a-423f-b053-58c844c6b937" /># 同济大学 2025-2026 学年第二学期高级程序语言设计
+# 同济大学 2025-2026 学年第二学期高级程序语言设计
 
 整理了课程相关内容，包含以下部分：
 
