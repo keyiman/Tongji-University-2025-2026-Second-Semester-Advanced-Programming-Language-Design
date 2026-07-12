@@ -10,13 +10,3 @@
 
 - 不抄袭
 - 求star喵
-
-## 关键词
-
-- sj
-- SJ
-- Shenjian
-- Shen Jian
-- 沈坚
-- 高程
-- 同济
